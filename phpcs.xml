@@ -67,6 +67,9 @@
 		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_trigger_error" />
 
 		<exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames" />
+
+		<!-- Smaller changesets are good, actually -->
+		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
 	</rule>
 
 	<!-- Relax a few rules for tests and example code -->
